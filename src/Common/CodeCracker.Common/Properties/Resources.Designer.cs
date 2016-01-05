@@ -233,6 +233,15 @@ namespace CodeCracker.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to IEnumerable might be enumerated more than once.
+        /// </summary>
+        public static string IEnumerablePossiblyBeingEnumeratedMoreThanOnce_Title {
+            get {
+                return ResourceManager.GetString("IEnumerablePossiblyBeingEnumeratedMoreThanOnce_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Change class &apos;{0}&apos; accessibility to be as accessible as class &apos;{1}&apos;.
         /// </summary>
         public static string InconsistentAccessibilityInBaseClass_Title {
